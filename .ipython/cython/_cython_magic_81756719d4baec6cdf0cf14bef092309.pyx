@@ -1,0 +1,2 @@
+import simplerandom
+cimport simplerandom

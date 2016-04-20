@@ -1,0 +1,13 @@
+[user]
+	name = Nick Eubank
+	email = nickeubank@gmail.com
+[core]
+	editor = subl -n -w
+[color]
+	ui = true
+[push]
+	default = simple
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
